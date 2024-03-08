@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+
+
+.titolo {
+    font-size: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.titoletto {
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 1%;
+   
+}
+
+
+.animated-button:not(:last-child) {
+    margin-bottom: 50px;
+   
+}
+
+
+.contenitori_bottoni {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.animated-button {
+    display: block; 
+    width: 50%;
+    height: 15vh;
+    font-size: 5em;
+    transition: transform 0.3s ease;
+    margin: 50px auto;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    border-radius: 10px;
+   
+}
+
+.animated-button:active {
+    transform: scale(0.9);
+}
+
+.animated-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+.elementoAnimato {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-100%);
+    animation: slide-in 2s forwards;
+}
+
+.elementoAnimato img {
+    width: 20%;
+    height: auto;
+}
+
+.elementoAnimato p {
+    max-width: 75%;
+    padding: 10px;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.verde {
+    background-color: #008000;
+    width: 50%;
+    height: 10%;
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Courier New';
+    font-weight: bold;
+
+
+}
+
+.arancio {
+    background-color: #FFA500;
+    width: 50%;
+    height: 10%;
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Courier New';
+    font-weight: bold;
+
+
+}
+
+.rosso {
+    background-color: #FF0000;
+    width: 50%;
+    height: 10%;
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Courier New';
+    font-weight: bold;
+
+
+}
+
+.bottone-partenza {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #6d879b;
+    color: #ffffff;
+    position: absolute;
+    bottom: 4%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-family: 'Courier New';
+    font-weight: bold;
+
+}
+
+.figo {
+    background-color: #6d879b;
+    font-weight: bold;
+    
+
+}
+
+.animated-button.selected {
+    transform: scale(1.1);
+}
+
+.a{
+    margin-top: 5%;
+}

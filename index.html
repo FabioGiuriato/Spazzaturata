@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spazzatura supremazia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div id="loading-container">
+        <div id="loading-image">
+            <img src="Norindo_Nutriareli-.png" alt="Random Image">
+            <div id="random-phrases-container" ></div>
+        </div> 
+        <div id="loading-bar-container">
+            <div id="loading-bar"></div>
+            <div id="loading-progress">0%</div>
+        </div>
+    </div>
+    <form id="myForm" action="index2.html">
+        <p class="titolo figo">RIPULISCI IL BACCHIGLIONE</p>
+        <p class="titoletto figo">SELEZIONA LA DIFFICOLTÀ</p>
+        <div class="contenitori_bottoni">
+            <input type="button" value="Facile" id="tabella_7*7" class="animated-button verde a">
+            <input type="button" value="Medio" id="tabella_6*6" class="animated-button arancio">
+            <input type="button" value="Difficile" id="tabella_5*5" class="animated-button rosso">
+        </div>
+        <div class="contenitori_bottoni">
+            <input type="submit" value="PARTENZA" class="bottone-partenza">
+        </div>
+        <div>
+            <input type="hidden" id="matric" name="matric" value="">
+            <input type="hidden" id="colonne" name="colonne" value="">
+        </div>
+    </form>
+    <div id="contenitore"></div>
+    <script src="script.js"></script>
+</body>
+</html>
